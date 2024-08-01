@@ -25,13 +25,10 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include <conio.h>
 #include <string.h>
 #include <time.h>
-#include <dos.h>
-#include <io.h>
+#include <unistd.h>
 
-#include "tcp.h"
 #include "ssh.h"
 #include "transprt.h"
 #include "version.h"

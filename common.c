@@ -26,7 +26,6 @@
 #include <stdarg.h>
 #include <string.h>
 
-#include "tcp.h"
 #include "config.h"
 #include "proxy.h"
 #if defined (MEMWATCH)

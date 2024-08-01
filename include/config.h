@@ -1,8 +1,6 @@
 #ifndef _CONFIG_H
 #define _CONFIG_H
 
-#include "tcp.h"
-
 typedef void (*SendFuncPtr)(char *, unsigned short);
 
 #define MAX_PASSWORD_LENGTH 30
@@ -10,7 +8,7 @@ typedef void (*SendFuncPtr)(char *, unsigned short);
 /* Configuration options */
 typedef struct {
 	char *identity;
-	tcp_Socket s;
+	int s; // socket
 	FILE *debugfile;
 	FILE *brailab;
 	FILE *batchfile;
